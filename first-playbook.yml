@@ -1,4 +1,7 @@
+---
 - name: Using Projects in AAP
   hosts: all
-  ansible.builtin.debug:
-    msg: "My first integration with projects in AAP"
+  tasks:
+    - name: Test
+      ansible.builtin.debug:
+        msg: "My first integration with projects in AAP"
