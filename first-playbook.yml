@@ -1,6 +1,4 @@
 - name: Using Projects in AAP
-  hosts: webservers
-  tasks:
-    - name: Write simple message
-      debug: 
-        msg: "This is my first project integration in AAP" 
+  hosts: all
+  ansible.builtin.debug:
+    msg: "My first integration with projects in AAP"
