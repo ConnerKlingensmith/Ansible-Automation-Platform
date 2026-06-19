@@ -1,5 +1,5 @@
 - name: Using Projects in AAP
-  hosts: All
+  hosts: webservers
   tasks:
     - name: Write simple message
       debug: 
